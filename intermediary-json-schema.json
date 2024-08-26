@@ -83,7 +83,7 @@
         "type": "object",
         "properties": {
           "$type": {
-            "const": "LivingDocumentation.ForEach, LivingDocumentation.Statements"
+            "const": "DendroDocs.ForEach, DendroDocs.Shared"
           },
           "Expression": {
             "type": "string"
@@ -101,7 +101,7 @@
         "type": "object",
         "properties": {
           "$type": {
-            "const": "LivingDocumentation.If, LivingDocumentation.Statements"
+            "const": "DendroDocs.If, DendroDocs.Shared"
           },
           "Sections": {
             "type": "array",
@@ -127,7 +127,7 @@
         "type": "object",
         "properties": {
           "$type": {
-            "const": "LivingDocumentation.Switch, LivingDocumentation.Statements"
+            "const": "DendroDocs.Switch, DendroDocs.Shared"
           },
           "Expression": {
             "type": "string"
@@ -159,7 +159,7 @@
         "type": "object",
         "properties": {
           "$type": {
-            "const": "LivingDocumentation.InvocationDescription, LivingDocumentation.Descriptions"
+            "const": "DendroDocs.InvocationDescription, DendroDocs.Shared"
           },
           "ContainingType": {
             "type": "string"
@@ -180,7 +180,7 @@
         "type": "object",
         "properties": {
           "$type": {
-            "const": "LivingDocumentation.AssignmentDescription, LivingDocumentation.Descriptions"
+            "const": "DendroDocs.AssignmentDescription, DendroDocs.Shared"
           },
           "Left": {
             "type": "string"
@@ -203,7 +203,7 @@
         "type": "object",
         "properties": {
           "$type": {
-            "const": "LivingDocumentation.ReturnDescription, LivingDocumentation.Descriptions"
+            "const": "DendroDocs.ReturnDescription, DendroDocs.Shared"
           },
           "Expression": {
             "type": "string"
